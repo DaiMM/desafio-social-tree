@@ -1,0 +1,67 @@
+:root {
+  --background: linear-gradient(180deg, #968399 2.6%, rgba(142, 131, 153, 0.85) 48.44%, #8E8399 88.54%, #726785 97.4%, #645C71 100%);
+  --white: #ffffff;
+}
+
+.container {
+  align-items: center;
+  background-image: var(--background);
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins';
+  height: 100vh;
+  justify-content: center;
+  padding: 5%;
+}
+
+.profile__avatar {
+  border: solid 0.1rem var(--white);
+  border-radius: 100%;
+  padding: 0.2rem;
+  margin-bottom: 0.8rem;
+  width: 12.5rem;
+}
+
+.profile__username {
+  color: var(--white);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.links__list {
+  margin-bottom: 4.25rem;
+}
+.social-tree {
+  padding: 2rem;
+  margin: 1rem
+}
+.links__item {
+  border: solid 0.125rem var(--white);
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  height: 3rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+  width: 20.37rem;
+  text-align: center;
+}
+
+.links__item a {
+  color: var(--white);
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.social-tree__list {
+  display: flex;
+  align-items: center;
+}
+
+.social-tree__item {
+  margin: 0 0.5rem;
+}
